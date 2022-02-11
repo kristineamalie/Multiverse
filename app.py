@@ -4,6 +4,7 @@ This programme creates a web app to predict Iris species based on measurements d
 
 import streamlit as st
 from calc import predict_species
+import sklearn as sklearn
 
 # select widescreen layout and elect page title
 st.set_page_config(page_title='Iris App', layout='wide')
